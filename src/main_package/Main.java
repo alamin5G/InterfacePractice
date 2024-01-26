@@ -1,10 +1,13 @@
-package Kharap;
+package main_package;
 
+
+import main_package.implement.*;
+import main_package.interfaces.Kharap;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Test {
+public class Main {
 
     public static void main(String[] args) {
         Kharap vaggo = new Vaggo();
@@ -16,7 +19,7 @@ public class Test {
         Kharap shorir = new Shorir();
         Kharap skin = new Skin();
 
-        //Created a List for all the Kharap
+        //Created a List for all the main_package.interfaces.Kharap
         List<Kharap> kharapList = new ArrayList<>();
 
         kharapList.add(vaggo);

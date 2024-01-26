@@ -1,4 +1,4 @@
-package Kharap;
+package main_package.interfaces;
 
 public interface Kharap {
     String kharap();

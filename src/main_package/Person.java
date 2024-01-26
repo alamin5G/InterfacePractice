@@ -1,7 +1,8 @@
-package Kharap;
+package main_package;
 
 
-import java.util.ArrayList;
+import main_package.interfaces.Kharap;
+
 import java.util.List;
 
 public class Person {
