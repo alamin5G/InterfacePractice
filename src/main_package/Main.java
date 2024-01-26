@@ -13,7 +13,6 @@ public class Main {
 
         //Created a List for all the main_package.interfaces.Kharap
         List<Kharap> kharapList = new ArrayList<>();
-
         kharapList.add(new Vaggo());
         kharapList.add(new Future());
         kharapList.add(new Grades());
@@ -31,6 +30,14 @@ public class Main {
         alaminList.add(new Mood());
         Person p2 = new Person("Alamin", alaminList);
         System.out.println(p2);
+
+
+        Jibon jibon = new Jibon();
+        Mon mon = new Mon();
+        Mood mood = new Mood();
+        Person me = new Person("Rakib", jibon, mon, mood);
+        System.out.println(me.print());
+
     }
 
 }

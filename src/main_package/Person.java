@@ -7,11 +7,17 @@ import java.util.List;
 
 public class Person {
     private String name ;
-    private List<Kharap> kharaps;
+    private List<Kharap> kharapList;
+    private Kharap[] kharap;
 
     public Person(String name, List<Kharap>  kharap) {
         this.name = name;
-        kharaps = kharap;
+        kharapList = kharap;
+    }
+
+    public Person(String name, Kharap... kharap) {
+        this.name = name;
+        this.kharap = kharap;
     }
 
     public String getName() {
@@ -23,14 +29,27 @@ public class Person {
     }
 
     public List<Kharap> getKharap() {
-        return kharaps;
+        return kharapList;
     }
 
 
     @Override
     public String toString() {
-        return   name + " er " +kharaps.toString();
+        return   name + " er " +kharapList.toString();
     }
 
+
+    /**
+     *
+     * @return name and string from implements;
+     */
+    public String print(){
+        String st= "";
+        for (Kharap kharap1 : kharap){
+            st += kharap1;
+            st += ", ";
+        }
+        return name + " er " + st;
+    }
 
 }
