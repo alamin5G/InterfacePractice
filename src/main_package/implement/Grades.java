@@ -8,7 +8,7 @@ public class Grades implements Kharap {
     }
     @Override
     public String kharap() {
-        return "Grades main_package.interfaces.Kharap";
+        return "Grades Kharap";
     }
 
     @Override

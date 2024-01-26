@@ -9,7 +9,7 @@ public class Jibon implements Kharap {
 
     @Override
     public String kharap() {
-        return "Jibon main_package.interfaces.Kharap";
+        return "Jibon Kharap";
     }
 
     @Override

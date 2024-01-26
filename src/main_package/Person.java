@@ -29,7 +29,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return   name + " er " +kharaps;
+        return   name + " er " +kharaps.toString();
     }
 
 

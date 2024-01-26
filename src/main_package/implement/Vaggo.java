@@ -9,7 +9,7 @@ public class Vaggo implements Kharap {
 
     @Override
     public String kharap() {
-        return "Vaggo main_package.interfaces.Kharap";
+        return "Vaggo Kharap";
     }
 
     @Override

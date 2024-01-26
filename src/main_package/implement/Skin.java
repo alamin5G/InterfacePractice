@@ -9,7 +9,7 @@ public class Skin implements Kharap {
 
     @Override
     public String kharap() {
-        return "Skin main_package.interfaces.Kharap";
+        return "Skin Kharap";
     }
 
     @Override

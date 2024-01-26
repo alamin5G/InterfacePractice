@@ -8,7 +8,7 @@ public class Mood implements Kharap {
     }
     @Override
     public String kharap() {
-        return "Mood main_package.interfaces.Kharap";
+        return "Mood  Kharap";
     }
 
     @Override

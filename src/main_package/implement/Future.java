@@ -9,7 +9,7 @@ public class Future implements Kharap {
 
     @Override
     public String kharap() {
-       return "Future main_package.interfaces.Kharap";
+       return "Future Kharap";
     }
 
     @Override

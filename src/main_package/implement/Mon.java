@@ -9,7 +9,7 @@ public class Mon implements Kharap {
 
     @Override
     public String kharap() {
-        return "Mon main_package.interfaces.Kharap";
+        return "Mon  Kharap";
     }
 
     @Override

@@ -8,7 +8,7 @@ public class Shorir implements Kharap {
     }
     @Override
     public String kharap() {
-        return "Shorir main_package.interfaces.Kharap";
+        return "Shorir Kharap";
     }
 
     @Override
