@@ -32,11 +32,20 @@ public class Main {
         System.out.println(p2);
 
 
-        Jibon jibon = new Jibon();
-        Mon mon = new Mon();
-        Mood mood = new Mood();
+        //another technique to implements the person with kharap list;
+        Kharap jibon = new Jibon();
+        Kharap mon = new Mon();
+        Kharap mood = new Mood();
+        Kharap grades = new Grades();
+        Kharap shorir = new Shorir();
+
         Person me = new Person("Rakib", jibon, mon, mood);
         System.out.println(me.print());
+
+        Person she = new Person("Fatima", grades, shorir, mon, mood, jibon);
+        System.out.println(she.print());
+
+
 
     }
 
